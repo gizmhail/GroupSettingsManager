@@ -127,5 +127,7 @@ Then, use [GroupSettingsManager sharedInstance] as you would use [NSUserDefaults
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
+  s.requires_arc = true
+
 end
 
